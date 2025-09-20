@@ -9,10 +9,10 @@ const Header = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-      <div className="fixed w-full">
-        <div className="max-w-[1280px] mx-auto px-[16px] shadow-md md:shadow flex items-center justify-between py-[20px] lg:py-[30px] font-inter z-999">
+      <div className="bg-white shadow-md fixed w-full z-999">
+        <div className="max-w-[1280px] mx-auto px-[16px] shadow-md md:shadow lg:shadow-none flex items-center justify-between py-[20px] font-inter">
           <a href="">
-            <img src={Logo} alt="logo" className='w-[170px] md:w-[248px]' />
+            <img src={Logo} alt="logo" className='w-[170px] md:w-[200px]' />
           </a>
           <div className="flex items-center gap-[20px] xl:gap-[40px]">
             <nav className="hidden lg:flex items-center gap-[20px] xl:gap-[40px]">

@@ -4,5 +4,10 @@
 
 @theme{
     --color-primary-blue: #0862EE;
+    --color-primary-gray: #72798C;
     --font-inter: 'Inter', sans-serif;
+}
+
+html {
+  @apply #202020; 
 }
