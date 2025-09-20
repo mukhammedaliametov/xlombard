@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
-@import 'tailwindcss';
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+@import "tailwindcss";
 
-
-@theme{
-    --color-primary-blue: #0862EE;
-    --color-primary-gray: #72798C;
-    --font-inter: 'Inter', sans-serif;
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --color-primary-blue: #0862ee;
+  --color-secondary-blue: #325488;
+  --color-primary-gray: #72798c;
+  --color-primary-green: #A7E9BE;
 }
 
-html {
-  @apply #202020; 
+body{
+  color: #202020;
 }

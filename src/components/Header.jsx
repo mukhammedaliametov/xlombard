@@ -31,7 +31,7 @@ const Header = () => {
             </button>
             <div className="hidden lg:hidden xl:block">
               <p className="text-primary-blue">Заказать обратный звонок</p>
-              <a href="tel: +7 (495) 677-95-51">+7 (495) 677-95-51</a>
+              <a href="tel: +7 (495) 677-95-51" className='text-[20px] font-bold'>+7 (495) 677-95-51</a>
             </div>
             <div onClick={handleClick} className="block lg:hidden text-[30px]">
               {nav ? <IoClose /> : <LuMenu />}

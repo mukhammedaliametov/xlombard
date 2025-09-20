@@ -7,10 +7,10 @@ import { GrSettingsOption } from "react-icons/gr";
 
 const Hero = () => {
   return (
-    <div className="max-w-[1280px] mx-auto px-[16px] pt-[170px] flex items-top justify-between">
+    <div className="max-w-[1280px] h-screen mx-auto px-[16px] pt-[170px] flex items-top justify-between">
       <div className="font-inter w-full md:w-[576px]">
-        <h1 className="text-[34px]/[42px] md:text-[54px]/[62px] font-[500]">
-          <span className="pl-[10px] pt-[10px] md:pl-[20px] md:pt-[20px] p-[5px] md:p-[10px] bg-[#CFE5FF] mr-0 md:-mr-2">
+        <h1 className="text-[28px]/[35px] md:text-[54px]/[62px] font-[500]">
+          <span className="pl-[10px] pt-[10px] md:pl-[20px] md:pt-[20px] p-[5px] md:p-[10px] bg-[#CFE5FF] -mr-1 md:-mr-2">
             Л
           </span>
           учшая программа для автоматизации{" "}
